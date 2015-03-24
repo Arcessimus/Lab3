@@ -12,12 +12,12 @@ public class TestPrimeFactorGenerator {
 	
 	@Test
 	public void testOne() {
-		assertEquals(list(1), generator.getList());
+		list().add(1);
+		assertEquals(list(), generator.getList());
 	}
 
-	private List<Integer> list(Integer i) {
+	private List<Integer> list() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(i);
 		return list;
 	}
 
