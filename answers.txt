@@ -1,0 +1,5 @@
+Question 1: write  a failing unit test, write code to pass the unit test, refactor if necessary, repeat
+
+Question 2: Yes. Writing unit tests will allow the developer to build their code
+from the ground up, while also telling them early on when their code isn't working properly.
+
